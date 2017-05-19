@@ -19,5 +19,5 @@ sess.run(init)
 
 for step in xrange(0, 201):
     sess.run(train)
-        if step % 20 == 0:
-            print step, sess.run(W), sess.run(b)
+    if step % 20 == 0:
+        print step, sess.run(W), sess.run(b)
